@@ -112,38 +112,3 @@ Depois acesse:
 http://localhost:8000
 ```
 
-## 9. Publicação no GitHub
-
-Crie um repositório chamado:
-
-```text
-dona-clara-emporio
-```
-
-Depois, no terminal dentro da pasta:
-
-```bash
-git init
-git add .
-git commit -m "feat: cria web app da Panificadora Dona Clara"
-git branch -M main
-git remote add origin SEU_LINK_DO_REPOSITORIO
-git push -u origin main
-```
-
-Para publicar como site, habilite **GitHub Pages** nas configurações do repositório, utilizando a branch `main` e a pasta raiz.
-
-## 10. Evoluções futuras
-
-Esta versão é um protótipo funcional para a atividade. Em uma versão de produção, recomenda-se:
-
-- Banco de dados para pedidos.
-- Login administrativo.
-- Painel para Clara e Roberto acompanharem encomendas.
-- Integração com WhatsApp.
-- Pagamento online.
-- Controle de estoque em tempo real.
-- Status do pedido.
-- Relatórios financeiros.
-- Autenticação e regras de acesso.
-
